@@ -1,0 +1,80 @@
+site_name: Chunky Gallery
+site_url: https://chunky-dev.github.io/gallery/
+repo_url: https://github.com/chunky-dev/chunky/
+repo_name: chunky-dev/chunky
+edit_uri: https://github.com/chunky-dev/docs/edit/master/ChunkyDocs/gallery/
+docs_dir: gallery
+
+theme:
+  name: material
+  favicon: assets/favicon.ico
+  logo: assets/logo.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: gallery/theme_override/
+  
+extra_css:
+  - extra/extra.css
+  
+markdown_extensions:
+  - admonition
+  - abbr
+  - footnotes
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      provider: github
+      user: chunky-dev
+      repo: chunky
+  - tables
+  - toc:
+      permalink: true
+      
+nav:
+  - "Home": "https://chunky-dev.github.io/docs/"
+  - "Getting Started": "https://chunky-dev.github.io/docs/getting_started/installing_chunky"
+  - "Support": "https://chunky-dev.github.io/docs/support/faq"
+  - "Reference": "https://chunky-dev.github.io/docs/reference/introduction"
+  - "Plugins": "https://chunky-dev.github.io/docs/plugins"
+  - "Gallery": "index.md"
+
+extra:
+  social:
+    - name: Chunky Discord
+      icon: fontawesome/brands/discord
+      link: https://discord.gg/VqcHpsF
+    - name: Chunky Subreddit
+      icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/chunky/
+    - name: Chunky GitHub
+      icon: fontawesome/brands/github
+      link: https://github.com/chunky-dev
