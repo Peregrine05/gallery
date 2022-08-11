@@ -1,6 +1,24 @@
-# gallery
----
+<p align="center">
+  <img width="100" src="https://raw.githubusercontent.com/llbit/chunky-docs/master/images/logo.png" alt="Chunky logo">
+</p>
+<h1 align="center"> Chunky Gallery </h1>
 
-This repository contains the images for the gallery of the [Chunky Manual](https://chunky-dev.github.io/docs/).
+<div align="center">Chunky is a Minecraft rendering tool that uses Path Tracing to create realistic images of your Minecraft worlds. View the website <a href="https://chunky-dev.github.io/docs/" target="_blank">here</a>.</div>
 
----
+This is the repository for the <a href="https://chunky-dev.github.io/gallery/" target="_blank">Chunky Gallery</a>.
+
+## Build Instructions
+
+This site uses <a href="https://www.mkdocs.org/" target="_blank">mkdocs</a>. Python version 3.5 or greater is required.
+
+1. Clone this repository.
+
+2. (optional) Set up a Python <a href="https://docs.python.org/3/library/venv.html" target="_blank">virtual environment</a>.
+
+3. Install the required packages with pip by using the command, `pip3 install -r requirements.txt`.
+
+4. If running Windows, simply run `serve.bat`. Otherwise, change the working directory to `./ChunkyGallery`.
+
+5. Serve the site for development by using the command, `python -m mkdocs serve --dev-addr 127.0.0.1:8001`.
+
+6. Build a preview of the final site by using the command, `python -m mkdocs build`.
