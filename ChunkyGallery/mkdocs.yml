@@ -33,7 +33,6 @@ theme:
     - toc.integrate
   icon:
     repo: fontawesome/brands/github
-  custom_dir: gallery/theme_override/
   
 extra_css:
   - extra/extra.css
@@ -61,10 +60,10 @@ markdown_extensions:
       
 nav:
   - "Home": "https://chunky-dev.github.io/docs/"
-  - "Getting Started": "https://chunky-dev.github.io/docs/getting_started/installing_chunky"
-  - "Support": "https://chunky-dev.github.io/docs/support/faq"
-  - "Reference": "https://chunky-dev.github.io/docs/reference/introduction"
-  - "Plugins": "https://chunky-dev.github.io/docs/plugins"
+  - "Getting Started": "https://chunky-dev.github.io/docs/getting_started/installing_chunky/"
+  - "Support": "https://chunky-dev.github.io/docs/support/faq/"
+  - "Reference": "https://chunky-dev.github.io/docs/reference/introduction/path_tracing/"
+  - "Plugins": "https://chunky-dev.github.io/docs/plugins/chunky_plugins/"
   - "Gallery": "index.md"
 
 extra:
