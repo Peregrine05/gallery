@@ -6,10 +6,11 @@
 *[VRAM]: Video RAM (GPU RAM)
 *[CLI]: Command-line interface
 *[GUI]: Graphical user interface
-*[JVM]: Java virtual machine
+*[JVM]: Java virtual Machine
 *[JDK]: Java Development Kit
 *[JRE]: Java Runtime Environment
 *[JFX]: JavaFX
+*[JAR]: Java ARchive
 *[OS]: Operating System
 
 <!-- General graphics stuff -->
@@ -29,6 +30,8 @@
 *[PNG]: Portable Network Graphics (SDR)
 *[JPG]: Joint Photographic Expert Group compressed image format (SDR)
 *[JPEG]: Joint Photographic Expert Group compressed image format (SDR)
+*[FP64]: Double-precision floating-point
+*[FP32]: Single-precision floating point
 
 <!-- Path tracing stuff -->
 *[NEE]: Next Event Estimation

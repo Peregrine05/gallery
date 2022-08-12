@@ -6,7 +6,7 @@ hide:
   - navigation
 ---
 
-Click the images to view a larger version.
+Click an image to view a larger version of it.
 
 <div class="gallery">
 

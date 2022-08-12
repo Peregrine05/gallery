@@ -33,10 +33,14 @@ theme:
     - toc.integrate
   icon:
     repo: fontawesome/brands/github
-  
+
+plugins:
+    - search:
+        lang: en
+
 extra_css:
   - extra/extra.css
-  
+
 markdown_extensions:
   - admonition
   - abbr
@@ -57,7 +61,9 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-      
+
+copyright: The Chunky Gallery is licensed under a CC-BY-NC-SA 4.0 Int. License (<a href="/gallery/license">learn more</a>)
+
 nav:
   - "Home": "https://chunky-dev.github.io/docs/"
   - "Getting Started": "https://chunky-dev.github.io/docs/getting_started/installing_chunky/"
