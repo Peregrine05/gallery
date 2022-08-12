@@ -3,9 +3,7 @@
 </p>
 <h1 align="center"> Chunky Gallery </h1>
 
-<div align="center">Chunky is a Minecraft rendering tool that uses Path Tracing to create realistic images of your Minecraft worlds. View the website <a href="https://chunky-dev.github.io/docs/" target="_blank">here</a>.</div>
-
-This is the repository for the <a href="https://chunky-dev.github.io/gallery/" target="_blank">Chunky Gallery</a>.
+<div align="center">Chunky is a Minecraft rendering tool that uses Path Tracing to create realistic images of your Minecraft worlds. View the website <a href="https://chunky-dev.github.io/docs/" target="_blank">here</a>. This is the repository for the <a href="https://chunky-dev.github.io/gallery/" target="_blank">Chunky Gallery</a>.</div>
 
 ## Build Instructions
 
