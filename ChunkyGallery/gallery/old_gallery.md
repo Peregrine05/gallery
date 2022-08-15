@@ -11,8 +11,8 @@ Click an image to view a larger version of it.
 <div class="gallery">
 
 	<div class=gallery__item>
-		<a href="../img/old_gallery/vista2.png">
-			<img border="0" class="gallery__img" alt="Vista" src="../img/old_gallery/vista2.jpg">
+		<a href="../img/old_gallery/vista2.html">
+			<img border="0" class="gallery__img" alt="Vista" src="../img/old_gallery/vista2_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Vista"
@@ -20,17 +20,17 @@ Click an image to view a larger version of it.
 	</div>
 
     <div class=gallery__item>
-		<a href="../img/old_gallery/04hockey.png">
-			<img border="0" class="gallery__img" alt="Atmosphere effects, curtesy of 04hockey" src="../img/old_gallery/04hockey.jpg">
+		<a href="../img/old_gallery/04hockey.html">
+			<img border="0" class="gallery__img" alt="Atmosphere effects, curtesy of 04hockey" src="../img/old_gallery/04hockey_thm.jpg">
 		</a>
 		<div class="gallery__desc">
-			"Atmosphere effects, curtesy of 04hockey"
+			"Atmosphere effects, courtesy of 04hockey"
 		</div>
 	</div>
     
     <div class=gallery__item>
-		<a href="../img/old_gallery/Sunbeam.png">
-			<img border="0" class="gallery__img" alt="Atmosphere effects" src="../img/old_gallery/Sunbeam.jpg">
+		<a href="../img/old_gallery/Sunbeam.html">
+			<img border="0" class="gallery__img" alt="Atmosphere effects" src="../img/old_gallery/Sunbeam_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Atmosphere effects"
@@ -38,8 +38,8 @@ Click an image to view a larger version of it.
 	</div>
        
     <div class=gallery__item>
-		<a href="../img/old_gallery/BrovilleDay.png">
-			<img border="0" class="gallery__img" alt="Broville (day)" src="../img/old_gallery/BrovilleDay.jpg">
+		<a href="../img/old_gallery/BrovilleDay.html">
+			<img border="0" class="gallery__img" alt="Broville (day)" src="../img/old_gallery/BrovilleDay_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Broville (day)"
@@ -47,8 +47,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/BrovilleNight.png">
-			<img border="0" class="gallery__img" alt="Broville (night)" src="../img/old_gallery/BrovilleNight.jpg">
+		<a href="../img/old_gallery/BrovilleNight.html">
+			<img border="0" class="gallery__img" alt="Broville (night)" src="../img/old_gallery/BrovilleNight_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Broville (night)"
@@ -56,8 +56,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/BrovilleFar.png">
-			<img border="0" class="gallery__img" alt="Broville" src="../img/old_gallery/BrovilleFar.jpg">
+		<a href="../img/old_gallery/BrovilleFar.html">
+			<img border="0" class="gallery__img" alt="Broville" src="../img/old_gallery/BrovilleFar_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Broville"
@@ -65,8 +65,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/Cornell.jpg">
-			<img border="0" class="gallery__img" alt="Cornell Box" src="../img/old_gallery/Cornell.jpg">
+		<a href="../img/old_gallery/Cornell.html">
+			<img border="0" class="gallery__img" alt="Cornell Box" src="../img/old_gallery/Cornell_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Cornell Box"
@@ -74,8 +74,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/DesertPort.jpg">
-			<img border="0" class="gallery__img" alt="Desert Port" src="../img/old_gallery/DesertPort_Thumb.jpg">
+		<a href="../img/old_gallery/DesertPort.html">
+			<img border="0" class="gallery__img" alt="Desert Port" src="../img/old_gallery/DesertPort_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Desert Port"
@@ -83,8 +83,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/ParallelProjection.png">
-			<img border="0" class="gallery__img" alt="Parallel Projection" src="../img/old_gallery/ParallelProjection.jpg">
+		<a href="../img/old_gallery/ParallelProjection.html">
+			<img border="0" class="gallery__img" alt="Parallel Projection" src="../img/old_gallery/ParallelProjection_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Parallel Projection"
@@ -92,8 +92,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/WinterResort.jpg">
-			<img border="0" class="gallery__img" alt="Winter Resort" src="../img/old_gallery/WinterResort_Thumb.jpg">
+		<a href="../img/old_gallery/WinterResort.html">
+			<img border="0" class="gallery__img" alt="Winter Resort" src="../img/old_gallery/WinterResort_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Winter Resort"
@@ -101,8 +101,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/Voyage.jpg">
-			<img border="0" class="gallery__img" alt="Voyage" src="../img/old_gallery/Voyage_Thumb.jpg">
+		<a href="../img/old_gallery/Voyage.html">
+			<img border="0" class="gallery__img" alt="Voyage" src="../img/old_gallery/Voyage_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Voyage"
@@ -110,8 +110,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/Nether.jpg">
-			<img border="0" class="gallery__img" alt="Nether" src="../img/old_gallery/Nether_Thumb.jpg">
+		<a href="../img/old_gallery/Nether.html">
+			<img border="0" class="gallery__img" alt="Nether" src="../img/old_gallery/Nether_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Nether"
@@ -119,8 +119,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/HiddenValley.jpg">
-			<img border="0" class="gallery__img" alt="Hidden Valley" src="../img/old_gallery/HiddenValley_Thumb.jpg">
+		<a href="../img/old_gallery/HiddenValley.html">
+			<img border="0" class="gallery__img" alt="Hidden Valley" src="../img/old_gallery/HiddenValley_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Hidden Valley"
@@ -128,8 +128,8 @@ Click an image to view a larger version of it.
 	</div>
            
     <div class=gallery__item>
-		<a href="../img/old_gallery/Station_Urban_Savage.jpg">
-			<img border="0" class="gallery__img" alt="Station" src="../img/old_gallery/Station_Urban_Savage_Thumb.jpg">
+		<a href="../img/old_gallery/Station_Urban_Savage.html">
+			<img border="0" class="gallery__img" alt="Station" src="../img/old_gallery/Station_Urban_Savage_thm.jpg">
 		</a>
 		<div class="gallery__desc">
 			"Station"
