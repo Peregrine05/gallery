@@ -2,7 +2,7 @@ site_name: Chunky Gallery
 site_url: https://chunky-dev.github.io/gallery/
 repo_url: https://github.com/chunky-dev/chunky/
 repo_name: chunky-dev/chunky
-edit_uri: https://github.com/chunky-dev/docs/edit/master/ChunkyDocs/gallery/
+edit_uri: https://github.com/chunky-dev/gallery/edit/main/ChunkyGallery/gallery/
 docs_dir: gallery
 
 theme:
