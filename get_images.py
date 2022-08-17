@@ -9,6 +9,7 @@ def main():
     i = 1
     while i <= numLines: # Repeat for every entry on the spreadsheet
         url, fullFilename, filename, renderNameNoEdit = getData(submissionsheet) # Get data from the spreadsheet
+        print("Attempting to download \"" + url + "\" to \"" + fullFilename + "\"") # Notify the user about the current action
         wget.download(url, fullFilename) # Download the image file
         createThm(fullFilename, filename) # Create a thumbnail of the image file
         createHtml(filename, renderNameNoEdit) # Create an HTML image page
