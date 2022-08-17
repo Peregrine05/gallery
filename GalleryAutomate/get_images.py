@@ -1,5 +1,19 @@
 def main():
-    submissionsheet = open("submissionsheet.csv") # Open the submission spreadsheet
+    sheetUrl = "https://docs.google.com/spreadsheets/d/1B3PD0AAc_gwNES8b1uaETQwswkjEcHbwJy8EH9M1k88/export?format=csv" # URL for gallery submission spreadsheet in CSV format
+    print("Attempting to download \"" + sheetUrl + "\" to \"submissionsheet.csv\"") # Notify the user about the current action
+    try:
+        wget.download(sheetUrl, 'submissionsheet.csv') # Download the gallery submission sheet in CSV format
+    except Exception as e:
+        print("Failed to download \"" + sheetUrl + "\"")
+        print("Error code: " + str(e))
+        exit()
+    print("Attempting to open \"submissionsheet.csv\"") # Notify the user about the current action
+    try:
+        submissionsheet = open("submissionsheet.csv") # Open the submission spreadsheet
+    except Exception as e:
+        print("Failed to open \"submissionsheet.csv\"")
+        print("Error code: " + str(e))
+        exit()
     submissionsheet.readline() # Skip the first line
     numLines = len(submissionsheet.readlines()) # Record the number of remaining lines
     submissionsheet.seek(0) # Return to the beginning of the file
@@ -10,9 +24,13 @@ def main():
     while i <= numLines: # Repeat for every entry on the spreadsheet
         url, fullFilename, filename, renderNameNoEdit = getData(submissionsheet) # Get data from the spreadsheet
         print("Attempting to download \"" + url + "\" to \"" + fullFilename + "\"") # Notify the user about the current action
-        wget.download(url, fullFilename) # Download the image file
-        createThm(fullFilename, filename) # Create a thumbnail of the image file
-        createHtml(filename, renderNameNoEdit) # Create an HTML image page
+        try:
+            wget.download(url, fullFilename) # Download the image file
+            createThm(fullFilename, filename) # Create a thumbnail of the image file
+            createHtml(filename, renderNameNoEdit) # Create an HTML image page
+        except Exception as e:
+            print("Failed to download \"" + url + "\"")
+            print("Error code: " + str(e))
         i = i + 1 # Increment the counter
 
 def getData(submissionsheet):
@@ -33,18 +51,23 @@ def getData(submissionsheet):
     renderName = line[renderNameBegin:renderNameEnd].replace(" ", "_") # Replace all spaces in the render title with underscores
     renderAuthor = line[renderAuthorBegin:renderAuthorEnd].replace(" ", "_") # Replace all spaces in the author name with underscores
     renderNameNoEdit = line[renderNameBegin:renderNameEnd] # Record the name of the author without editing it
-    filePath = str("images/gallery/") # Folder into which the images are downloaded
+    filePath = str("../images/gallery/") # Folder into which the images are downloaded
     filename = str(renderAuthor + "-" + renderName) # Generate the filename from the name of the author and the name of the render joined by a hyphen
     fullFilename = str(filePath + filename) # Record the full file path of the image
     return url, fullFilename, filename, renderNameNoEdit # Return recorded values
 
 def createThm(fullFilename, filename):
-    outputFile = str("ChunkyGallery/gallery/img/gallery/" + filename + "-thm.jpg") # Set the thumbnail output file
-    print("Attempting to generate thumbnail image from \"" + filename + "\"") # Notify the user about the current action
-    subprocess.run(["magick", fullFilename, "-resize", "720", "-quality", "90%", outputFile]) # Run ImageMagick to create the thumbnails
+    outputFile = str("../ChunkyGallery/gallery/img/gallery/" + filename + "-thm.jpg") # Set the thumbnail output file
+    print("\nAttempting to generate thumbnail image from \"" + filename + "\"") # Notify the user about the current action
+    try:
+        subprocess.run(["magick", fullFilename, "-resize", "720", "-quality", "90%", outputFile]) # Run ImageMagick to create the thumbnails
+    except Exception as e:
+        print("Failed to generate thumbnail image from \"" + filename + "\". Is ImageMagick properly added to Path?")
+        print("Error code: " + str(e))
+        exit()
 
 def createHtml(filename, renderNameNoEdit):
-    outputFile = str("ChunkyGallery/gallery/img/gallery/" + filename + ".html") # Set the HTML output file
+    outputFile = str("../ChunkyGallery/gallery/img/gallery/" + filename + ".html") # Set the HTML output file
     url = str("https://raw.githubusercontent.com/chunky-dev/gallery/main/images/gallery/" + filename) # Generate a URL from the filename
     html = str("""<!DOCTYPE html>
 <html>

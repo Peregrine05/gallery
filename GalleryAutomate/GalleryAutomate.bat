@@ -10,12 +10,12 @@ pause
 
 pip3 install wget
 
-python get_csv.py
+mkdir ..\images\gallery
 
-mkdir images\gallery
-
-mkdir ChunkyGallery\gallery\img\gallery
+mkdir ..\ChunkyGallery\gallery\img\gallery
 
 python get_images.py
+
+del submissionsheet.csv
 
 pause
