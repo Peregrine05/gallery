@@ -52,7 +52,7 @@ Click an image to view a larger version of it.
 			<img border="0" class="gallery__img" alt="swamp and mountain by Bluelix" src="img\thumbnail\Bluelix-swamp_and_mountain_TIMG.jpg">
 		</a>
 		<div class="gallery__desc">
-			"swamp and mountain" by Bluelix - nop mine
+			"swamp and mountain" by Bluelix
 		</div>
 	</div>
 	
@@ -61,7 +61,7 @@ Click an image to view a larger version of it.
 			<img border="0" class="gallery__img" alt="desert cave by Bluelix" src="img\thumbnail\Bluelix-desert_cave_TIMG.jpg">
 		</a>
 		<div class="gallery__desc">
-			"desert cave" by Bluelix - nop
+			"desert cave" by Bluelix
 		</div>
 	</div>
 	
@@ -88,7 +88,7 @@ Click an image to view a larger version of it.
 			<img border="0" class="gallery__img" alt="Japanese-style fantasy by CATBIG168" src="img\thumbnail\CATBIG168-Japanese-style_fantasy_TIMG.jpg">
 		</a>
 		<div class="gallery__desc">
-			"Japanese-style fantasy" by CATBIG168 - NO
+			"Japanese-style fantasy" by CATBIG168
 		</div>
 	</div>
 	
@@ -152,6 +152,24 @@ Click an image to view a larger version of it.
 		</a>
 		<div class="gallery__desc">
 			"Avontyre" by Project Eden
+		</div>
+	</div>
+	
+	<div class=gallery__item>
+		<a href="image_html\jackjt8-DWAEBH_Fog_Test.html">
+			<img border="0" class="gallery__img" alt="DWAEBH Fog Test by jackjt8" src="img\thumbnail\jackjt8-DWAEBH_Fog_Test_TIMG.jpg">
+		</a>
+		<div class="gallery__desc">
+			"DWAEBH Fog Test" by jackjt8
+		</div>
+	</div>
+	
+	<div class=gallery__item>
+		<a href="image_html\Peregrine05-Ruined_Portal.html">
+			<img border="0" class="gallery__img" alt="Ruined Portal by Peregrine05" src="img\thumbnail\Peregrine05-Ruined_Portal_TIMG.jpg">
+		</a>
+		<div class="gallery__desc">
+			"Ruined Portal" by Peregrine05
 		</div>
 	</div>
 	
@@ -604,7 +622,6 @@ Click an image to view a larger version of it.
 			"Winter_Ambience" by Zak_Fynn
 		</div>
 	</div>
-			<!--GALLERY_END-->
+				<!--GALLERY_END-->
 </div>
-
 
