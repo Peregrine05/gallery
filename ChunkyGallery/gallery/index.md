@@ -622,5 +622,11 @@ Click an image to view a larger version of it.
 			"Winter Ambience" by Zak Fynn
 		</div>
 	</div>
-					<!--GALLERY_END-->
+<!--GALLERY_END-->
 </div>
+
+---
+
+<a href="https://www.reddit.com/r/chunky/" target="_blank" class="md-button">:fontawesome-brands-reddit: Subreddit</a> [Old Chunky Gallery](./old_gallery.md){ .md-button } <a href="https://forms.gle/zwdBjRxGS6Sm1GL96" target="_blank" class="md-button md-button--primary">Want your renders featured?</a>
+
+--8<-- "includes/abbreviations.md"
